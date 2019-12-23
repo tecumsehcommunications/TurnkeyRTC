@@ -1,0 +1,5 @@
+ clj -m cljs.main -co  "{:output-dir \"pub/js\"
+   :asset-path  \"/js\"     
+   :main \"app.core\"
+   :optimizations :simple
+   :verbose true }"
